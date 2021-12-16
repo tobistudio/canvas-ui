@@ -28,8 +28,8 @@ function createLive (t: TFunction): LinkOption[] {
       dnslink: 'canvas',
       info: 'canvas',
       shortText: t<string>('rpc.canvas.test', 'Canvas Test', { ns: 'app-config' }),
-      text: t<string>('rpc.hosted.by', 'Canvas Test ({{host}}, canvas-rpc.parity.io)', { ns: 'app-config', replace: { host: 'Parity' } }),
-      value: 'wss://canvas-rpc.parity.io'
+      text: t<string>('rpc.hosted.by', 'Canvas Test ({{host}}, rococo-canvas-rpc.polkadot.io)', { ns: 'app-config', replace: { host: 'Parity' } }),
+      value: 'wss://rococo-canvas-rpc.polkadot.io'
     }
   ];
 }
